@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:src="@drawable/hibana"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:text="Nacida y criada en Nagoya (Japón), Imagawa es una experta en entrar en áreas de alto riesgo. Una experta en artes marciales y se unió a la Academia Nacional de Policía cuando tenía 18 años. Apodada Hibana debido a su liderazgo explosivo en el campo, adquirió una rara versatilidad táctica mientras se entrenaba con la SWAT FBI y GIGN. Una jugadora de equipo y experta en tácticas de lanzamiento, fue reclutada por la Unidad Especial del Departamento de Policía de la Prefectura de Aichi."
+        android:layout_weight="0.62"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <Button
+        android:layout_width="178dp"
+        android:layout_height="82dp"
+        android:text="Volver"
+        android:id="@+id/volver"
+        style="@style/Widget.AppCompat.Button.Small" />
+
+</LinearLayout>

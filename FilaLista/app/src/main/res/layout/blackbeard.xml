@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        android:src="@drawable/blackbeard"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:text="Craig Blackbeard Jenson es un agente atacante que aparece en Tom Clancy's Rainbow Six Siege, introducido en la Operacion Dust Line junto con Valkyrie. Posee tanto una resistencia como una velocidad media. Su habilidad especial consiste en el Rifle-Escudo que utiliza al mismo tiempo que la mira, que lo defiende de los disparos a la cabeza sin disminuir su campo de visión. "
+        android:layout_weight="0.51"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <Button
+        android:layout_width="178dp"
+        android:layout_height="82dp"
+        android:text="Volver"
+        android:id="@+id/volver"
+        style="@style/Widget.AppCompat.Button.Small" />
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:src="@drawable/frost"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:text="Tina Lin Tsang es una oficial de sistemas de combate y una estratega centrada y meticulosa. Usa el Sterling Mk2 LHT o Felpudo trampa, una trampa de plástico y metal con resorte que se coloca en el suelo y le proporciona un método no letal para inmovilizar a su presa. El diseño elegante del Felpudo trampa permite desplegarlo en toda clase de zonas y entornos sin que necesite mucho camuflaje. "
+        android:layout_weight="0.62"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <Button
+        android:layout_width="178dp"
+        android:layout_height="82dp"
+        android:text="Volver"
+        android:id="@+id/volver"
+        style="@style/Widget.AppCompat.Button.Small" />
+
+</LinearLayout>

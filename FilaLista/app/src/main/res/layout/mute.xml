@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:src="@drawable/mute"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:text="Mark Mute Chandar es un personaje que aparece en Tom Clancy's Rainbow Six Siege. Él tiene una armadura media y grado de movilidad medio y es capaz de colocar el Moni GC90 Disruptor de señal y es capaz de destruir las señales que emiten los Drones. "
+        android:layout_weight="0.62"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <Button
+        android:layout_width="178dp"
+        android:layout_height="82dp"
+        android:text="Volver"
+        android:id="@+id/volver"
+        style="@style/Widget.AppCompat.Button.Small" />
+</LinearLayout>

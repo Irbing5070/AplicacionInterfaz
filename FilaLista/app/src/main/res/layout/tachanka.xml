@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:src="@drawable/lordchanka"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:text="Alexsandr Tachanka Senaviev es un agente defensor presente en Tom Clancy's Rainbow Six Siege. Él ofrece una gran y pesada armadura por lo tanto tiene movilidad lenta. El arma especial de Tachanka es una ametralladora desmontable RP-46 Degtyaryov que puede ser utilizada tanto por compañeros de equipo como por enemigos."
+        android:layout_weight="0.62"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <Button
+        android:layout_width="178dp"
+        android:layout_height="82dp"
+        android:text="Volver"
+        android:id="@+id/volver"
+        style="@style/Widget.AppCompat.Button.Small" />
+</LinearLayout>

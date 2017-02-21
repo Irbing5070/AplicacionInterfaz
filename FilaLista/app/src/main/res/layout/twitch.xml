@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:src="@drawable/twitch"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:text="Emmanuelle Twitch Pichon es una Operadora Atacante que hace su aparición en Tom Clancy's Rainbow Six Siege. Tiene movilidad y velocidad medianas. Su habilidad especial es el despliegue del Drone de choque modelo RSD 1 que puede desactivar los artilugios enemigos y dañar a los jugadores enemigos. "
+        android:layout_weight="0.62"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <Button
+        android:layout_width="178dp"
+        android:layout_height="82dp"
+        android:text="Volver"
+        android:id="@+id/volver"
+        style="@style/Widget.AppCompat.Button.Small" />
+</LinearLayout>

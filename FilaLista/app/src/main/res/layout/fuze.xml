@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="242dp"
+        android:src="@drawable/fuze"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:text="Shuhrat Fuze Kessikbayev es un agente atacante que aparece en Tom Clancy's Rainbow Six Siege. Tiene una alta armadura, pero tiene poca movilidad y lleva dos APM-6 Matryoshka Cluster Charges capaces de limpiar las habitaciones mediante el despliegue de 5 pequeñas granadas a través de estructuras quebrantables como paredes, pisos y ventanas. "/>
+
+    <Button
+        android:layout_width="178dp"
+        android:layout_height="82dp"
+        android:text="Volver"
+        android:id="@+id/volver"
+        style="@style/Widget.AppCompat.Button.Small" />
+</LinearLayout>
